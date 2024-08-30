@@ -9,7 +9,6 @@ const LoginPage: React.FC = () => {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
-    // Replace with your login logic
     if (!email || !password) {
       setError('Please fill in all fields.');
     } else {
