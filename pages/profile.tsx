@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import Image from 'next/image';
 import styles from '../styles/Profile.module.css'; // Import CSS module for specific styling
 
 const ProfilePage: React.FC = () => {
@@ -12,13 +11,6 @@ const ProfilePage: React.FC = () => {
 
       <section className={styles.profileSection}>
         <div className={styles.profileHeader}>
-          <Image
-            src="/images/profile-placeholder.png"
-            alt="Profile"
-            width={150}
-            height={150}
-            className={styles.profileImage}
-          />
           <h2>John Doe</h2>
           <p>Driving enthusiast with a passion for road safety.</p>
           <button className={styles.editButton}>Edit Profile</button>
