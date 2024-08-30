@@ -1,0 +1,80 @@
+/* styles/Booking.module.css */
+
+.hero {
+    background: url('/images/booking-hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .heroContent {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .bookingSection {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bookingFormContainer {
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .testDatesContainer {
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .confirmationMessage {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .bookingForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bookingForm label {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .bookingForm input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+  }
+  
+  .submitButton {
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .testDates {
+    text-align: center;
+  }
+  
+  .dateItem {
+    margin-bottom: 0.5rem;
+  }
